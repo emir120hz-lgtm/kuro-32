@@ -1,0 +1,21 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "kuro.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SodiumOcclusionMixin",
+    "SodiumXrayMixin",
+    "SodiumXrayFluidMixin",
+    "BlockRenderManagerMixin",
+    "InGameHudMixin",
+    "TeamMixin",
+    "ScoreboardEntryMixin",
+    "SilentPlayerMixin",
+    "SilentInteractMixin",
+    "GameRendererAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
